@@ -19,7 +19,13 @@ body:after{
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.3);
+  //background-color: rgba(0,0,0,0.3);
+
+
+background: #FF512F; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.8;
 }
 
 .main-content {
@@ -81,7 +87,6 @@ body:after{
   height: 250px;
   background: #f60;
   border-radius: 4px 4px 0 0;
-  box-shadow: 0 0 100px #aaa;
   border-top: 1px solid #f60;
   border-bottom: 1px solid #f60;
 }
